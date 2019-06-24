@@ -1,0 +1,59 @@
+/*
+Theme Name: My Divi Child Theme
+Theme URI: https://ashdowncookeryschool.co.uk
+Version: 1.0
+Description: A customized version of Divi which adds a number of tiny features I need.
+Author: John Paul
+Author URI: https://webandprosper.co.uk
+Template: Divi
+*/
+/* TARGETS THE TRIBE BUTTONS IN THE CHILD THEME PHOTO VIEW */
+.tribe-events-list .tribe-events-photo-event .tribe-button {
+  display: none !important;
+}
+/* TARGETS THE TRIBE BUTTONS IN THE CHILD THEME LIST VIEW */
+.tribe-events-event-cost .tribe-button {
+  display: none !important;
+}
+
+/* TARGETS THE PHOTO VIEW CONTAINER IN THE CHILD THEME... ADJUST THIS FOR DIFFERENT DEVICES */
+
+.tribe-events-list .tribe-events-photo-event .tribe-events-event-details {
+        height: 270px;
+}
+
+/* THE CODE BELOW PROVIDES STYLING TO THE NEW FIND OUT MORE AND BOOK BUTTON
+CREATED IN THE SINGLE EVENT PHP FILE ----------*/
+.tribe-events-list .tribe-events-photo-event .tribe-events-list-event-title-book {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  width: 50% !important;
+  font-weight: 500;
+  font-size: 1.2em;
+  }
+
+  /* STYLES THE STOCK QTY AND PRICE DISPLAYED IN PHOTO VIEW */
+.tribe-events-photo-event h2.jp-tribe-events-from-list {
+  font-size: 1.2em !important;
+  color: #8cabab;
+  }
+
+  #tribe-events .tribe-events-list .tribe-events-event-cost span {
+    font-style: normal !important;
+    }
+  .tribe-events-photo-event span.jp-tribe-events-cost {
+    font-size: 1.2em;
+    font-weight: 700;
+    padding-left: 5px;
+    }
+ 
+
+
+
+
+
+
+
+
+
